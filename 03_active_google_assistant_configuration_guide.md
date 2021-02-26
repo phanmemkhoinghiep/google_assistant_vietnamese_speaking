@@ -1,5 +1,9 @@
 ### Đây là hướng dẫn đăng ký và Active Google Action
 
+### STEP0. Bạn nào có kinh nghiệm với Google Develop, Google Action có thể tự làm theo link này và bỏ qua các bước dưới đây
+
+https://developers.google.com/assistant/sdk/guides/service/python/embed/register-device
+
 ### STEP1. Đăng nhập và tạo GOOLGE ACTION PROJECT
 
 1.1. Tạo Project Google Console
@@ -22,7 +26,7 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 Ở màn hình Development experience tiếp theo chọn SmartHome.
 
-1.1.4. Tiếp tục hoàn thiện 1 số thông tin cơ bản của Project cho đến khi Public được Project
+1.1.4. Tiếp tục hoàn thiện 1 số thông tin cơ bản của Project cho đến khi Test và Public chờ xét duyệt được App ứng với Project vừa tạo
 
 1.2. Kích hoạt Google Assistant API cho Project tương ứng
 
