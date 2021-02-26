@@ -1,5 +1,6 @@
 
-Vietbot hỗ trợ các hotword của Porcupine cho Raspberry
+
+### Mặc định Source Code của Google Assistant đã có 02 Hotword là "OK Google" và "Hey Google", tuy nhiên có hỗ trợ khai thêm các hotword khác, sử dụng các Hotword của Porcupine cho Raspberry
 
 ### STEP1. Download hotword file
 
@@ -13,21 +14,20 @@ Vietbot hỗ trợ các hotword của Porcupine cho Raspberry
 
 2.1. Copy file alexa_raspberry-pi.ppn từ PC sang Pi Zero Wireless bằng WinSCP
 
-### STEP3. Khai báo cho hotword mới
+### STEP3. Khai báo cho một hotword mới (Alexa với tên file là alexa_raspberry-pi.ppn)
 
-3.1. Truy cập vào thư mục vietbot trên M Pi Zero Wireless
+3.1. Truy cập vào thư mục /home/pi/google_assistant_vietnamese_speaking/src trên Raspberry
 
-
-3.2. Mở file config.yaml bằng WinSCP và Notepad ++
+3.2. Mở file config.yaml bằng WinSCP và Notepad ++ và chèn thêm một dòng sau dòng sensitivities và sau dòng keyword_paths :
 
 ```sh
 sensitivities:
  - 0.3
-
+```
+và 
+```sh
 keyword_paths:
-
  - alexa_raspberry-pi.ppn
-
 ```
 
 3.3. Save lại file config.yaml
@@ -38,4 +38,6 @@ keyword_paths:
 
 Lưu ý: Số dòng dưới mục sensitivities:  và số dòng dưới mục keyword_paths: phải bằng nhau
 
-4.2. Sau khi khai báo xong hotword cuối cùng, save lại file config.yaml và chạy lại Google Asistant
+4.2. Sau khi khai báo xong hotword cuối cùng, save lại file config.yaml và chạy lại Google Asistant theo đường link
+
+https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/05_running_guide.md
