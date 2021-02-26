@@ -82,8 +82,9 @@ sudo apt-get install libportaudio2 libatlas-base-dev libsdl2-mixer-2.0-0 libpq-d
 ```
 sau đó
 ```sh
-sudo apt-get install git wget openssl vlc ffmpeg -y
+sudo apt-get install git wget openssl ffmpeg -y
 ```
+2.2. Patch lỗi libportaudio
 sau đó
 ```sh
 git clone -b alsapatch https://github.com/gglockner/portaudio
@@ -104,11 +105,11 @@ sau đó
 ```sh
 sudo ldconfig
 ```
-2.2. Cài đặt các thư viện cho Python
+2.3. Cài đặt các thư viện cho Python
 
 Chạy lần lượt các lệnh sau
 ```sh
-sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python3-pygame python3-bs4 -y
+sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python3-pygame-y
 
 ```
 
@@ -148,7 +149,6 @@ và
 python -m pip install --upgrade google-auth-oauthlib[tool]
 
 ```
-
 
 ### STEP4. Config Mig, Speaker, LED
 
