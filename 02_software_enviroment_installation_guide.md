@@ -1,12 +1,15 @@
 ### ĐÂY LÀ HƯỚNG DẪN CÀI ĐẶT PHẦN HỆ ĐIỀU HÀNH, THƯ VIỆN, DRIVER CHO PI ZERO WIRLESS, MODUN 2 MIC HAT, 4 MIC ARRAY HOẶC MIC USB
 
 ### STEP0. Cài đặt nhanh (Bỏ qua Step1 đến Step5)
-Các bạn không muốn trải nghiệm quá trình cài đặt từ Step1 đến Step5, có thể thực hiện theo các bước sau:
+
+Các bạn không muốn trải nghiệm quá trình cài đặt từ Step1 đến Step5, có thể thực hiện theo các bước sau
+
 0.1. Download bộ Image đã cài đặt sẵn tất cả các bước theo một trong hai link sau:
 
-Bản cho thẻ 32G trở lên: (Chờ Update)
-Username/password:pi/raspberry
-Bản cho thẻ 16G: (Chờ Update)
+Bản cho thẻ 32G trở lên: (Chờ Link Update(
+
+Bản cho thẻ 16G: (Chờ Link Update)
+
 Username/password:pi/210324
 
 0.2. Sử dụng Win32Img để ghi vào thẻ SD 32GB
@@ -16,6 +19,14 @@ Username/password:pi/210324
 https://github.com/phanmemkhoinghiep/vietbot/blob/main/software_enviroment_installation_guide.md
 
 0.4. Cắm thẻ nhớ vào Pi Zero W và boot lên
+
+0.5. Sử dụng SSH để truy cập từ xa vào Console
+
+0.6. Username và password đăng nhập là mặc định
+
+```sh
+Username/password:pi/raspberry
+```
 
 ### STEP1. Cài đặt hệ điều hành Raspbian
 
