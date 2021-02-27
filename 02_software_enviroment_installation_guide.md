@@ -146,7 +146,7 @@ python3 -m pip install --upgrade google-assistant-sdk[samples]==0.5.1
 và
 
 ```sh
-python3-m pip install --upgrade google-auth-oauthlib[tool]
+python3 -m pip install --upgrade google-auth-oauthlib[tool]
 
 ```
 
