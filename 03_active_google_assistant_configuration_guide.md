@@ -18,6 +18,8 @@ Có thể tạo mới hoặc dùng tài khoản hiện có, tuy nhiên tài kho�
 
 Nếu đã từng có một Project thuộc Google Develop COnsole rồi thì có thể sử dụng luôn mà không cần tạo mới bằng cách nhập lại tên để cửa sổ các dự án hiện ra và chọn
 
+![TẠO PROJECT](https://cdn.pimylifeup.com/wp-content/uploads/2018/03/01-Actions-on-Google.png)
+
 Nếu tạo dự án mới, nhập tên cho Dự án này, ví dụ: Google Assistant, rồi ấn Create Project – Tạo dự án mới.
 
 Google khống chế chỉ cho phép 5 dự án, do đó cố gắng tạo ít dự án cho nhiều mục đích
