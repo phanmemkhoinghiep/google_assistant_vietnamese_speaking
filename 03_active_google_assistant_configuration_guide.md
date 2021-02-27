@@ -90,7 +90,7 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
       --scope https://www.googleapis.com/auth/gcm \
       --save --headless --client-secrets /home/pi/client_secret_client-id.json
-}
+
 ```
 với client_secret_client-id.json là tên file json vừa lưu ở /home/pi theo bước 2.2.3.
 
