@@ -66,7 +66,9 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 2.1.1. Lưu lại id của project: project_id
 
-2.1.2. Mở trang https://console.actions.google.com/u/0/project/project_id/deviceregistration/ và điền lần lượt từng mục
+2.1.2. Mở trang https://console.actions.google.com/u/0/project/project_id/deviceregistration/ với project_id là project_id vừa lưu ở 2.1.1.
+
+và điền lần lượt từng mục
 
 ![ĐĂNG KÝ THIẾT BỊ](https://developers.google.com/assistant/sdk/images/console/device-models-aog.png)
 
