@@ -124,8 +124,38 @@ theo thông báo trên console
 credentials saved: /path/to/.config/google-oauthlib-tool/credentials.json
 
 ```
+Chú ý, không được xóa, đổi tên file này trong quá trình sử dụng Google Assistant
 
-3.2.6. Trong trường hợp muốn dùng Account Google khác để chạy áp thì mới đổi tên hoặc xóa file credentials.json trong thư mục trên
+3.3. Trong trường hợp muốn dùng Account Google khác
+
+3.3.1. Thay Acc khác
+
+Xóa thư mục trên bằng lệnh
+
+```sh
+sudo rm -rf/home/pi/.config/google-oauthlib-tool/credentials.json
+
+```
+Chạy lại toàn bộ các bước từ 3.1. đến 3.2 để tạo được file credentials.json mới
+
+3.3.2. Dùng nhiều Acc
+
+Đổi tên file .json hiện tại bằng lệnh
+
+```sh
+sudo cp /home/pi/.config/google-oauthlib-tool/credentials.json /home/pi/.config/google-oauthlib-tool/credentials_1.json
+
+```
+Chạy lại toàn bộ các bước từ 3.1. đến 3.2 để tạo được file credentials.json mới
+
+Lặp lại bước 3.3.2 để tạo ra file credentials_x.json
+
+Muốn dùng Acc nào thì tạo file credentials.json từ file đó
+
+```sh
+sudo cp /home/pi/.config/google-oauthlib-tool/credentials_x.json /home/pi/.config/google-oauthlib-tool/credentials.json
+
+```
 
 
 3.2.6. Trong trường hợp báo lỗi InvalidGrantError, là do mã copy vào theo bước 3.1.5. bị sai, cần phải lặp lại từ 3.1. Chú ý mã copy không có khoảng trắng, khi select bằng chuột có thể có khoảng trắng
