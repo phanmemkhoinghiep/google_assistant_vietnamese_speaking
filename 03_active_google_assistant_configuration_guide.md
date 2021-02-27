@@ -44,6 +44,8 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 1.2.5. Khai báo các thông tin cần thiết
 
+![KHAI BÁO OAUTH](https://developers.google.com/assistant/sdk/images/consent-oauth.png)
+
 1.3. Khai báo Google Activity Control
 
 1.3.1. Truy cập vào link: https://myaccount.google.com/activitycontrols với Acc sẽ sử dụng trong STEP 3, tốt nhất là trùng với Acc dùng để tạo Project ở trên
@@ -66,6 +68,10 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 2.1.2. Mở trang https://console.actions.google.com/u/0/project/project_id/deviceregistration/ và điền lần lượt từng mục
 
+![ĐĂNG KÝ THIẾT BỊ](https://developers.google.com/assistant/sdk/images/console/device-models-aog.png)
+
+![ĐĂNG KÝ THIẾT BỊ](https://user-images.githubusercontent.com/64348125/109378336-3f136d80-7904-11eb-808e-37bf5c726bf3.png)
+
 2.1.3. Product Name: Gõ tùy ý
 
 2.1.4. Manufacturer name: Gõ  tùy ý
@@ -80,9 +86,16 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 2.2.1. Cửa sổ mới mở ra, chọn Download OAuth 2.0 credentials
 
+![ĐĂNG KÝ THIẾT BỊ](https://user-images.githubusercontent.com/64348125/109378347-56525b00-7904-11eb-9764-c2af673d9ac4.png)
+
+
 2.2.2. File .json được lưu về máy, giữ nguyên File không đổi tên 
 
 2.2.3. Copy file json vừa download được sang thư mục của loa thông minh tại đường dẫn /home/pi
+
+2.2.4. Có thể lấy lại file json bằng cách vào lại bước 2.1, chọn Download OAuth 2.0 credentials
+
+![LẤY LẠI FILE](https://developers.google.com/assistant/sdk/images/console/edit-model.png)
 
 ### STEP3. Kích hoạt Google Assistant trên loa thông minh
 
