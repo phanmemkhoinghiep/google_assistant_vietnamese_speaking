@@ -38,6 +38,8 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 1.2.3. Tại khung tìm kiếm, gõ Google Asssistant API, sau đó chọn Enable
 
+![TẠO PROJECT](https://cdn.pimylifeup.com/wp-content/uploads/2018/03/03-Activate-Google-Assistant-API.png)
+
 1.2.4. Chọn mục Credentials bên trái
 
 1.2.5. Khai báo các thông tin cần thiết
