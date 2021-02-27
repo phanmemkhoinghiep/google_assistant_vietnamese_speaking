@@ -46,11 +46,13 @@ Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ đ�
 
 1.3.2. Kích hoạt các mục sau
 
-1.3.2.1. Web & App Activity: Cần thiết lựa chọn thêm mục Include Chrome history and activity from sites, apps, and devices that use Google services
+1.3.2.1. Web & App Activity: Cần thiết lựa chọn thêm mục Include Chrome history and activity from sites, apps, and devices that use Google services, Enable Audio Recording
 
 1.3.2.2. Device Information
 
 1.3.2.3. Voice & Audio Activity
+
+1.3.2.4. Youtube History
 
 ### STEP2. Đăng ký thiết bị
 
@@ -90,7 +92,7 @@ google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-proto
       --save --headless --client-secrets /home/pi/client_secret_client-id.json
 }
 ```
-với client_secret_client-id.json là file json vừa lưu ở /home/pi theo bước 2.2.3.
+với client_secret_client-id.json là tên file json vừa lưu ở /home/pi theo bước 2.2.3.
 
 3.1.2. Kết quả dòng lệnh sẽ trả về có dạng
 
@@ -122,7 +124,9 @@ theo thông báo trên console
 credentials saved: /path/to/.config/google-oauthlib-tool/credentials.json
 
 ```
-Chú ý không được xóa, đổi tên, xóa file credentials.json trong thư mục trên
+
+3.2.6. Trong trường hợp muốn dùng Account Google khác để chạy áp thì mới đổi tên hoặc xóa file credentials.json trong thư mục trên
+
 
 3.2.6. Trong trường hợp báo lỗi InvalidGrantError, là do mã copy vào theo bước 3.1.5. bị sai, cần phải lặp lại từ 3.1. Chú ý mã copy không có khoảng trắng, khi select bằng chuột có thể có khoảng trắng
 
