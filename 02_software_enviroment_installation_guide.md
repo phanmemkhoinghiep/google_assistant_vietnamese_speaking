@@ -85,6 +85,7 @@ sau đó
 sudo apt-get install git wget openssl ffmpeg -y
 ```
 2.2. Patch lỗi libportaudio
+
 sau đó
 ```sh
 git clone -b alsapatch https://github.com/gglockner/portaudio
