@@ -141,12 +141,12 @@ python3 -m pip install --upgrade google-assistant-grpc
 và
 
 ```sh
-python -m pip install --upgrade google-assistant-sdk[samples]==0.5.1
+python3 -m pip install --upgrade google-assistant-sdk[samples]==0.5.1
 ```
 và
 
 ```sh
-python -m pip install --upgrade google-auth-oauthlib[tool]
+python3-m pip install --upgrade google-auth-oauthlib[tool]
 
 ```
 
