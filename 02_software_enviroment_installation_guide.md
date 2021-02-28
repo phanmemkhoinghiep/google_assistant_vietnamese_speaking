@@ -16,11 +16,9 @@ Username/password:pi/210324
 
 0.2. Sử dụng Win32Img để ghi vào thẻ SD 32GB
 
-0.3. Khai báo file wpa_supplicant.conf như hướng dẫn tại
+0.3. Khai báo file wpa_supplicant.conf như hướng dẫn tại Bước 1.3.
 
-https://github.com/phanmemkhoinghiep/vietbot/blob/main/software_enviroment_installation_guide.md
-
-0.4. Cắm thẻ nhớ vào Pi Zero W và boot lên
+2.4. Cắm thẻ nhớ vào Pi Zero W và boot lên
 
 0.5. Sử dụng SSH để truy cập từ xa vào Console
 
