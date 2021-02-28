@@ -15,7 +15,7 @@ Hướng dẫn độ Bot từ loa GH Minh
 
 1.5. Đầu Jack Mini JST 2.0 cái: 01 cái
 
-(Trong trường hợp không có có thể thay bằng dây jump cắm mạch cái: 01 sợi)
+(Trong trường hợp không có có thể thay bằng dây jump cắm mạch loại cái: 01 sợi)
 
 1.6. Lõi dây mạng CAT 6 loại tốt: 2 sợi 10cm
 
@@ -58,7 +58,7 @@ Gỡ theo các bước sau
 
 3.1. lấy máy sấy tóc bật nấc nóng và dí vào phần màu cam 1 lúc, chỗ viền sát mép để keo chảy ra
 
-![VỊ TRÍ GỠ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H00_Thao.jpg)
+![VỊ TRÍ GỠ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H00_Thao.jpg)
 
 3.2. Dùng dao trổ nậy lớp keo dán dưới đáy GH Mini
 
@@ -66,39 +66,60 @@ Gỡ theo các bước sau
 
 3.4. Tiếp tục dùng tô vít đa năng gỡ bỏ lần lượt các thành phần
 
-![CÁC PHẦN SAU KHI THÁO](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H02_Thao.jpg)
+![CÁC PHẦN SAU KHI THÁO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H00_Thao.jpg)
 
-![CÁC PHẦN SAU KHI THÁO](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H01_Thao.jpg)
+![CÁC PHẦN SAU KHI THÁO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H01_Thao.jpg)
 
-### STEP4. Hàn dây
+![CÁC PHẦN SAU KHI THÁO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H02_Thao.jpg)
+
+### STEP4. Hàn dây cấp nguồn từ jack vào GH Mini tới Orange Pi Zero
 
 4.1. Gỡ modun nguồn của GH Mini ở phần đáy
 
-![VỊ TRÍ MẠCH NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H111_Hannguon.jpg)
+![VỊ TRÍ MẠCH NGUỒN](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H11_Hannguon.jpg)
 
 4.2. Lật phần lẫy đen giữ cáp của Mạch nguồn
 
-![VỊ TRÍ LẪY](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H11_Hannguon.jpg)
+![VỊ TRÍ LẪY](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H11_Hannguon.jpg)
 
-![LẪY ĐÃ BẬT](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H12_Hannguon.jpg)
+![LẪY ĐÃ BẬT](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H13_Hannguon.jpg)
 
-![PINOUT CỦA CHÂN MICRO USB](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H10_Hannguon.jpg)
+![LẪY ĐÃ BẬT](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H14_Hannguon.jpg)
 
 Cắm jack nguồn Micro USB vào Mạch nguồn, sử dụng đồng hồ vạn năng để đo thông mạch từ 2 đầu sợi cáp với 5 chân thực tế để  xác định chính xác vị trí Pinout thực tế
 
-![ĐỒNG HỒ THÔNG MẠCH](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H131_Hannguon.jpg)
+![ĐỒNG HỒ THÔNG MẠCH](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H00_Hannguon.jpg)
 
-![PINOUT THỰC TẾ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H13_Hannguon.jpg)
+![VỊ TRÍ CHÂN THỰC TẾ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H15_Hannguon.jpg)
 
 Sau khi đã xác định chân thì bắt đầu hàn 2 chân nguồn từ mạch nguồn ra
 
-!HÀN CHÂN NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H15_Hannguon.jpg)
+!HÀN CHÂN NGUỒN](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H16_Hannguon.jpg)
 
-Sau khi hàn chân xong thì phủ keo lên như hình
+Để dư 1 đoạn dây để hàn chân cấp nguồn (-) vào một tiếp điểm của công tắc, hàn phần nguồn xong thì phủ keo lên như hình
 
-![HÀN DÂY JACK NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H1_han_nguon.jpg)
+![PHỦ KEO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H17_Hannguon.jpg)
 
-4.2. Hàn tiếp lõi dây mạng (dây jump) với jack nguồn như hình
+4.3. Hàn công tắc Mic của GH Mini làm công tắc nguồn
+
+4.3.1. Tiếp tục sử dụng đồng hồ thông mạch để xác định vị trí chân đóng mở của công tắc
+
+![ĐỒNG HỒ THÔNG MẠCH](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H00_Hannguon.jpg)
+
+4.3.2. Hàn chân cấp nguồn (-) vào một tiếp điểm của công tắc, hàn tiếp sợi nguồn còn lại vào tiếp điểm còn lại của công tắc
+
+![HÀN CÔNG TẮC](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H21_hancongtac.jpg)
+
+![HÀN CÔNG TẮC](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H22_hancongtac.jpg)
+
+![HÀN CÔNG TẮC](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H23_hancongtac.jpg)
+
+hàn phần công tắc xong lại phủ keo lên như hình
+
+![PHỦ KEO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H24_hancongtac.jpg)
+
+
+
 
 ![HÀN VỚI CÔNG TẮC MIC ĐỂ LÀM CÔNG TẮC NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H21_hancongtac.jpg)
 
