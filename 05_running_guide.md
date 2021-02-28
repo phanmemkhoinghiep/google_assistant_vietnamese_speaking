@@ -12,6 +12,9 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 ```sh
 python3 pushtotalk.py
 ```
+1.3 Ra lệnh bằng từ khóa
+
+Sau khi chạy, ra lệnh bằng từ khóa "OK Google" hoặc "Hey Google" sẽ có tiếng Ting và bắt đầu chờ lệnh
 
 ### STEP2.  Chạy tự động khi khởi động Pi
 
