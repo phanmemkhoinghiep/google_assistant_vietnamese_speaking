@@ -1,8 +1,8 @@
 ### Đây là hướng dẫn đăng ký và Active Google Action
 
-### STEP0. Bạn nào có kinh nghiệm với Google Develop, Google Action có thể tự làm theo link này và bỏ qua các bước dưới đây
+### STEP0. Bạn nào không muốn trải nghiệm việc cài đặt
 
-https://developers.google.com/assistant/sdk/guides/service/python/embed/register-device
+Có thể sử dụng file .json trong bước 2 của người khác và bỏ qua Guide này
 
 ### STEP1. Đăng nhập và tạo GOOLGE ACTION PROJECT
 
