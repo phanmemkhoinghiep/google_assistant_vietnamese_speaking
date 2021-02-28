@@ -72,7 +72,7 @@ Gỡ theo các bước sau
 
 ![CÁC PHẦN SAU KHI THÁO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H02_Thao.jpg)
 
-### STEP4. Hàn dây cấp nguồn từ jack vào GH Mini tới Orange Pi Zero
+### STEP4. Hàn dây cấp nguồn từ jack vào GH Mini tới Pi Zero
 
 4.1. Gỡ modun nguồn của GH Mini ở phần đáy
 
@@ -118,52 +118,34 @@ hàn phần công tắc xong lại phủ keo lên như hình
 
 ![PHỦ KEO](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H24_hancongtac.jpg)
 
+### STEP5. Lắp phễu thu âm, luồn dây
 
+5.1. Lắp lại loa, lắp phễu thu âm
 
+5.2. Luồn dây vừa hàn qua lỗ nhỏ trên phễu
 
-![HÀN VỚI CÔNG TẮC MIC ĐỂ LÀM CÔNG TẮC NGUỒN](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H21_hancongtac.jpg)
+![LUỒN DÂY](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H31_luon_day.jpg)
 
+![LUỒN DÂY](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H32_luon_day.jpg)
 
-![SAU KHI HÀN XONG](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H22_hancongtac.jpg)
+### STEP5. Hàn đầu jack nguồn uSB
 
-4.3. Hàn loa với jack Minini JST 2.0 Đực như hình (Có thể thay bằng dây jump cái)
+5.1. Jack nguồn Micro USB
 
-![HÀN DÂY LOA VỚI JACK MINI JST](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H3_han_loa.jpg)
+![JACk NGUỒN](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H40_Han_dau_nguon.jpg)
 
+5.2. Sơ đồ chân
 
-4.4. Luồn dây loa qua lỗ và hàn dây như hình
+![SƠ ĐỒ CHÂN ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H41_Han_dau_nguon.jpg)
 
-4.4.1. Lắp đặt mặt nhôm trở lại đế của Gh Mini
+5.3. Hàn dây từ chân nguồn với Jack nguồn
 
-4.4.2. luồn dây nguồn, dây loa qua lỗ
+![HÀN DÂY](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H42_Han_dau_nguon.jpg)
 
-4.4.3. Hàn dây nguồn với đầu Micro USB gập vuông như hình
+5.4. Test thử với Pi Zero W xem có lên nguồn không
 
-![LUỒN DÂY LOA QUA LỖ, HÀN DÂY NGUỒN VỚI MICRO USB ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H41_luon_day.jpg)
+![TEST THỬ VỚI PI ZERO W ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H43_Han_dau_nguon.jpg)
 
-![LUỒN DÂY LOA QUA LỖ, HÀN DÂY NGUỒN VỚI MICRO USB ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H42_luon_day.jpg)
-
-4.5. Hàn dây 3.5mm với 1 đầu Jack Mini JST2.0 (Có thể thay bằng dây jump) như hình
-
-![HÀN DÂY 3.5MM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H10_Jack_3.5.jpg)
-
-### STEP5. Lắp đặt Pi Zero W và Modun 2 Mic Hat
-
-5.1. Dùng băng dính 2 mặt, dán Pi Zero W lên mặt nhôm như hình
-
-![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H61_Lap_Pi.jpg)
-
-![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H62_Lap_Pi.jpg)
-
-5.2. Gắn Modun 2 Mic Hat như hình, có 2 tùy chọn
-
-5.2.1. Gắn 2 MIC HAT với loa qua cổng JST 2.0, âm thanh sẽ to do 2 MIC HAT có Amply, tuy nhiên là âm thanh Mono, như hình
-
-![GẮN 2 MIC HAT DÙNG JST](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H7_Lap_Pi_Hat.jpg)
-
-5.2.2. Gắn 2 MIC HAT với loa qua cổng 3.5mm, khi đó sẽ dùng thêm cáp 3.5mm vừa tạo, âm thanh sẽ nhỏ, tuy nhiên là âm thanh Stereo, như hình
-
-![GẮN 2 MIC HAT DÙNG 3.5MM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H11_dau_jack_3.5.jpg)
 
 ### STEP6. Khoan vỏ
 
@@ -194,7 +176,27 @@ hàn phần công tắc xong lại phủ keo lên như hình
 ![CẬN CẢNH NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H57_Lam_nap.jpg)
 
 
-### STEP7. Lắp vỏ, cắm nguồn
+
+### STEP7. Lắp đặt Pi Zero W và Modun 2 Mic Hat
+
+5.1. Dùng băng dính 2 mặt, dán Pi Zero W lên mặt nhôm như hình
+
+![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H61_Lap_Pi.jpg)
+
+![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H62_Lap_Pi.jpg)
+
+5.2. Gắn Modun 2 Mic Hat như hình, có 2 tùy chọn
+
+5.2.1. Gắn 2 MIC HAT với loa qua cổng JST 2.0, âm thanh sẽ to do 2 MIC HAT có Amply, tuy nhiên là âm thanh Mono, như hình
+
+![GẮN 2 MIC HAT DÙNG JST](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H7_Lap_Pi_Hat.jpg)
+
+5.2.2. Gắn 2 MIC HAT với loa qua cổng 3.5mm, khi đó sẽ dùng thêm cáp 3.5mm vừa tạo, âm thanh sẽ nhỏ, tuy nhiên là âm thanh Stereo, như hình
+
+![GẮN 2 MIC HAT DÙNG 3.5MM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H11_dau_jack_3.5.jpg)
+
+
+### STEP8. Lắp vỏ, cắm nguồn
 
 Lắp vỏ theo chiều thẳng đứng, cắm nguồn như hình
 
