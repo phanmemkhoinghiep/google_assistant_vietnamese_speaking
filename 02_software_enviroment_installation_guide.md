@@ -8,7 +8,7 @@ Các bạn không muốn trải nghiệm quá trình cài đặt từ Step1 đ�
 
 Bản cho thẻ 32G trở lên: (Chờ Link Update(
 
-Bản cho thẻ 16G: (Chờ Link Update)
+Bản cho thẻ 16G: https://1drv.ms/u/s!AvDx_rYRQh5Lo_AmY5TORDA1GnloSw?e=sTSE2u
 
 Username/password:pi/210324
 
