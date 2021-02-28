@@ -2,7 +2,7 @@
 
 ### STEP0. Bạn nào không muốn trải nghiệm việc cài đặt
 
-Có thể sử dụng file .json trong bước 2 của người khác và bỏ qua Guide này
+Có thể sử dụng file .json trong Step 2 của người khác đã đăng ký thành công và bỏ qua Guide này
 
 ### STEP1. Đăng nhập và tạo GOOLGE ACTION PROJECT
 
