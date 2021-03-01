@@ -12,9 +12,17 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 ```sh
 python3 pushtotalk.py
 ```
-1.3 Ra lệnh bằng từ khóa
 
-Sau khi chạy, ra lệnh bằng từ khóa "OK Google" hoặc "Hey Google" sẽ có tiếng Ting và bắt đầu chờ lệnh
+1.3. Kết quả thành công
+```sh
+pygame 1.9.4.post1
+Hello from the pygame community. https://www.pygame.org/contribute.html
+INFO:root:Connecting to embeddedassistant.googleapis.com
+INFO:root:Using device model inbound-theory-xxxxx-xxxxx-xxxxx and device id xxxxx-xxxxx-xxxx-xxxx-xxxxxxxx
+```
+1.4 Ra lệnh bằng từ khóa
+
+Sau khi có kết quả thành công, ra lệnh bằng từ khóa "OK Google" hoặc "Hey Google" sẽ có tiếng Ting và bắt đầu chờ lệnh
 
 ### STEP2.  Chạy tự động khi khởi động Pi
 
