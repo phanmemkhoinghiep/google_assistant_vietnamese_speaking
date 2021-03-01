@@ -155,25 +155,25 @@ hàn phần công tắc xong lại phủ keo lên như hình
 
 6.1. Sử dụng dao trổ, gỡ lớp vải ecang ra khỏi nắp GH Mini như hình
 
-![CẬN CẢNH VỎ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H52_Lam_nap.jpg)
+![CẬN CẢNH MÉP E CĂNG](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H52_Lam_nap.jpg)
 
-![VẢI ECANG TẠI MÉP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H53_Lam_nap.jpg)
+![VẢI ECANG ĐÃ GỠ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H53_Lam_nap.jpg)
 
 6.2. Dùng cưa lọng, cưa bỏ phần mặt trên của GH Mini, sao cho 2 Mic Array Left, Right lộ ra ngoài
 
 ![MẶT SAU LỘT VỎ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H51_Lam_nap.jpg)
 
-![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H54_Lam_nap.jpg)
+![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H54_Lam_nap.jpg)
 
-![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H55_Lam_nap.jpg)
+![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H55_Lam_nap.jpg)
 
 6.3. Dán lại lớp vải Ecang bằng súng bắn keo nhiệt, dán 2 điểm ở hai phía đối diện để tạo căng, sau đó dán lần lượt, như hình
 
-![DÁN HAI ĐIỂM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H54_Lam_nap.jpg)
+![DÁN HAI ĐIỂM ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H56_Lam_nap.jpg)
 
-![MẶT DƯỚI SAU KHI DÁN XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H55_Lam_nap.jpg)
+![MẶT DƯỚI SAU KHI DÁN XONG ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H57_Lam_nap.jpg)
 
-![MẶT TRÊN SAU KHI DÁN XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H56_Lam_nap.jpg)
+![MẶT TRÊN SAU KHI DÁN XONG ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H58_Lam_nap.jpg)
 
 6.2. Cắt bỏ đoạn cút nhựa lấy kích thước khoảng 2cm
 
@@ -181,31 +181,30 @@ hàn phần công tắc xong lại phủ keo lên như hình
 
 6.4. Dán Decan vào loa, như hình
 
-![CẬN CẢNH NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H57_Lam_nap.jpg)
-
-
+![CẬN CẢNH NẮP ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H59_Lam_nap.jpg)
 
 ### STEP7. Lắp đặt Pi Zero W và Modun 2 Mic Hat
 
 5.1. Dùng băng dính 2 mặt, dán Pi Zero W lên mặt nhôm như hình
 
-![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H61_Lap_Pi.jpg)
+![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H71_Lap_Pi.jpg)
 
-![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H62_Lap_Pi.jpg)
+![GẮN PI ZERO W ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H72_Lap_Pi.jpg)
 
 5.2. Gắn Modun 2 Mic Hat như hình, có 2 tùy chọn
 
 5.2.1. Gắn 2 MIC HAT với loa qua cổng JST 2.0, âm thanh sẽ to do 2 MIC HAT có Amply, tuy nhiên là âm thanh Mono, như hình
 
-![GẮN 2 MIC HAT DÙNG JST](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H7_Lap_Pi_Hat.jpg)
+![GẮN 2 MIC HAT DÙNG JST](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H70_Lap_Pi_Hat.jpg)
 
 5.2.2. Gắn 2 MIC HAT với loa qua cổng 3.5mm, khi đó sẽ dùng thêm cáp 3.5mm vừa tạo, âm thanh sẽ nhỏ, tuy nhiên là âm thanh Stereo, như hình
 
-![GẮN 2 MIC HAT DÙNG 3.5MM ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H11_dau_jack_3.5.jpg)
+![GẮN 2 MIC HAT DÙNG 3.5MM ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H80_Jack_3.5.jpg)
 
+![GẮN 2 MIC HAT DÙNG 3.5MM ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H81_Jack_3.5.jpg)
 
 ### STEP8. Lắp vỏ, cắm nguồn
 
 Lắp vỏ theo chiều thẳng đứng, cắm nguồn như hình
 
-![ĐÓNG NẮP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H8_Dong_nap.jpg)
+![ĐÓNG NẮP ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H90_Dong_nap.jpg)
