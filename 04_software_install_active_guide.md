@@ -70,6 +70,11 @@ và điền lần lượt từng mục
 ![LẤY LẠI FILE](https://developers.google.com/assistant/sdk/images/console/edit-model.png)
 
 
+### STEP4.  Cách 2: Đăng ký thiết bị sử dụng Tool
+
+https://developers.google.com/assistant/sdk/reference/device-registration/device-tool
+
+
 ### STEP5. Kích hoạt Google Assistant trên loa thông minh
 
 5.1. Truy nhập SSH của Raspberry Pi
