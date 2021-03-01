@@ -19,9 +19,9 @@ https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/m
 
 https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/02_software_enviroment_installation_guide.md
 
-#Hướng dẫn Active Google Assistant
+#Hướng dẫn cài đặt Project Google Assistant trên Google
 
-https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/03_active_google_assistant_configuration_guide.md
+https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/03_google_project_configuration_guide.md
 
 #Hướng dẫn cài đặt Google Assistant lên Raspberry Pi
 
