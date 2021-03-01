@@ -25,7 +25,7 @@ https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/m
 
 #Hướng dẫn cài đặt Google Assistant lên Raspberry Pi
 
-https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/04_software_install_guide.md
+https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/04_software_install_active_guide.md
 
 #Hướng dẫn chạy Google Assistant
 
@@ -43,5 +43,4 @@ https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/m
 #Hướng dẫn Config Spotify
 
 https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/08_spotify_configuration_guide.md
-
 
