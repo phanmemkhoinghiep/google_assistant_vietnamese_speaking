@@ -100,6 +100,8 @@ Quay lại Tab Deploy là hoàn tất việc khai báo trên Google Action Conso
 
 ![CHECK ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/deploy_07.jpg)
 
+![FINISH ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/finish_action.jpg)
+
 
 ### STEP2. Đăng nhập và tạo Google API
 
