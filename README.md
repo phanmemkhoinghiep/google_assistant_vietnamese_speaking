@@ -38,7 +38,7 @@ https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/m
 
 #Hướng dẫn cài đặt, Update thêm Hotword
 
-https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/07_hotword_configuration.guide
+https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/commit/bc5e67eff1f32dd730d3cc34d6816382e8f8fa7a
 
 #Hướng dẫn Config Spotify
 
