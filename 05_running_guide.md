@@ -20,7 +20,7 @@ Hello from the pygame community. https://www.pygame.org/contribute.html
 INFO:root:Connecting to embeddedassistant.googleapis.com
 INFO:root:Using device model inbound-theory-xxxxx-xxxxx-xxxxx and device id xxxxx-xxxxx-xxxx-xxxx-xxxxxxxx
 ```
-1.4 Ra lệnh bằng từ khóa
+1.4. Ra lệnh bằng từ khóa
 
 Sau khi có kết quả thành công, ra lệnh bằng từ khóa "OK Google" hoặc "Hey Google" sẽ có tiếng Ting và bắt đầu chờ lệnh
 
