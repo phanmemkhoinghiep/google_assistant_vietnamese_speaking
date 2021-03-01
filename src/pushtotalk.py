@@ -180,6 +180,12 @@ class SampleAssistant(object):
                     self.conversation_stream.stop_recording()
                     self.conversation_stream.start_playback()
                     logging.info('Playing assistant response.')
+                    if re_speaker == 1:
+                        pixels.pixels.speak() 
+                    elif re_speaker ==2:
+                        led_control.find().speak()
+                    elif re_speaker ==3:    
+                        pixel_ring.speak()                      
                 self.conversation_stream.write(resp.audio_out.audio_data)
             if resp.dialog_state_out.conversation_state:
                 conversation_state = resp.dialog_state_out.conversation_state
@@ -385,6 +391,7 @@ def main(api_endpoint, credentials, project_id,
             open(output_audio_file, 'wb'),
             sample_rate=audio_sample_rate,
             sample_width=audio_sample_width
+
         )
     else:
         audio_sink = audio_device = (
@@ -536,12 +543,6 @@ def main(api_endpoint, credentials, project_id,
 
             # If we only want one conversation, break.
             if once and (not continue_conversation):
-                if re_speaker == 1:
-                    pixels.pixels.off() 
-                elif re_speaker ==2:
-                    led_control.find().off()
-                elif re_speaker ==3:    
-                    pixel_ring.off()                                                    
                 break
 
 
