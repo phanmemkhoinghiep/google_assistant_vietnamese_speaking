@@ -2,7 +2,7 @@
 
 ### STEP0. Bạn nào không muốn trải nghiệm việc cài đặt
 
-Có thể sử dụng file .json trong Step 2 của người khác đã đăng ký thành công và bỏ qua Guide này
+Có thể sử dụng file .json trong Step 2 của người khác đã đăng ký thành công và bỏ qua Guide này chuyển sang các Guide tiếp theo
 
 ### STEP1. Đăng nhập và tạo GOOLGE ACTION PROJECT
 
@@ -20,17 +20,28 @@ Nếu đã từng có một Project thuộc Google Develop COnsole rồi thì c�
 
 ![TẠO PROJECT](https://cdn.pimylifeup.com/wp-content/uploads/2018/03/01-Actions-on-Google.png)
 
-Nếu tạo dự án mới, nhập tên cho Dự án này, ví dụ: Google Assistant, rồi ấn Create Project – Tạo dự án mới.
+Nếu tạo dự án mới, nhập tên cho Dự án này, ví dụ: Test Google Assistant, rồi ấn Create Project – Tạo dự án mới.
+
+![TẠO PROJECT](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/create_new_project_01.jpg)
+
 
 Google khống chế chỉ cho phép 5 dự án, do đó cố gắng tạo ít dự án cho nhiều mục đích
 
 Nếu đây là dự án đầu tiên tạo trên Google Actions, bạn sẽ được yêu cầu đọc và Đồng ý với các điều khoản sử dụng dịch vụ – Terms of service. Chọn Quốc gia là Vietnam rồi ấn Agree and Continue – Đồng ý và tiếp tục.
 
-Ở màn hình Development experience tiếp theo chọn SmartHome.
+Ở màn hình Development experience tiếp theo chọn Custom.
 
-1.5. Lưu lại id của project: project_id để sử dụng về sau
+![TẠO PROJECT](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/select_project_type_01.jpg)
 
-1.6. Tiếp tục hoàn thiện 1 số thông tin cơ bản của Project cho đến khi Test và Public chờ xét duyệt được App ứng với Project vừa tạo
+Sau đó chọn None
+
+![TẠO PROJECT](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/select_project_type_02.jpg)
+
+1.5. Chờ vài s, cửa sổ dự án sẽ mở ra ở mục Develop
+
+Tiến hành nhập tên sẽ gọi cho App
+
+1.6. 
 
 ### STEP2. Đăng nhập và tạo GOOLGE ACTION PROJECT
 
