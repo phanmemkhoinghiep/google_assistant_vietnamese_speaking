@@ -149,15 +149,23 @@ hàn phần công tắc xong lại phủ keo lên như hình
 
 ### STEP6. Khoan vỏ
 
+6.1. Cận cảnh vỏ
+
+![CẬN CẢNH VỎ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H50_Lam_nap.jpg)
+
 6.1. Sử dụng dao trổ, gỡ lớp vải ecang ra khỏi nắp GH Mini như hình
 
-![GỠ VẢI ECANG TẠI MÉP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H51_Lam_nap.jpg)
+![CẬN CẢNH VỎ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H52_Lam_nap.jpg)
 
-![LỚP VẢI ECANG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H52_Lam_nap.jpg)
+![VẢI ECANG TẠI MÉP ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H53_Lam_nap.jpg)
 
 6.2. Dùng cưa lọng, cưa bỏ phần mặt trên của GH Mini, sao cho 2 Mic Array Left, Right lộ ra ngoài
 
-![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H53_Lam_nap.jpg)
+![MẶT SAU LỘT VỎ](https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speaking/blob/main/image/H51_Lam_nap.jpg)
+
+![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H54_Lam_nap.jpg)
+
+![SAU KHI CƯA XONG ](https://github.com/phanmemkhoinghiep/vietbot/blob/main/image/H55_Lam_nap.jpg)
 
 6.3. Dán lại lớp vải Ecang bằng súng bắn keo nhiệt, dán 2 điểm ở hai phía đối diện để tạo căng, sau đó dán lần lượt, như hình
 
