@@ -22,11 +22,12 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 ```
 
 2.2. Chạy trực tiếp
-
+'''sh
+python3 python3 pushtotalk.py 
+'''
 Nếu ra kết quả sau
 
 ```sh
-pi@bot00:~/google_assistant_vietnamese_speaking/src $ python3 pushtotalk.py 
 pygame 1.9.4.post1
 Hello from the pygame community. https://www.pygame.org/contribute.html
 ERROR:root:Error loading credentials: [Errno 2] No such file or directory: '/home/pi/.config/google-oauthlib-tool/credentials.json'
