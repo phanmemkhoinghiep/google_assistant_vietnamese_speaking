@@ -66,8 +66,10 @@ và điền lần lượt từng mục
 
 3.4. File .json được lưu về máy, giữ nguyên File không đổi tên 
 
-3.5. Copy file json vừa download được sang thư mục của loa thông minh tại đường dẫn /home/pi
-
+3.5. Copy file json vừa download được sang thư mục của loa thông minh tại đường dẫn
+```sh
+ /home/pi
+```
 3.6. Có thể lấy lại file json bằng cách vào lại bước 2.1, chọn Download OAuth 2.0 credentials
 
 ![LẤY LẠI FILE](https://developers.google.com/assistant/sdk/images/console/edit-model.png)
