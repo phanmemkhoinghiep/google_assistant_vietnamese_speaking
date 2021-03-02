@@ -22,7 +22,8 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 ```
 
 2.2. Chạy trực tiếp
-'''sh
+
+```sh
 python3 python3 pushtotalk.py 
 '''
 Nếu ra kết quả sau
