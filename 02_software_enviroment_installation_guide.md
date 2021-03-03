@@ -34,8 +34,13 @@ Username/password:pi/raspberry
 Tối ưu cho phần cứng Pi Zero Wireless nên Vietbot chỉ cần bản OS Buster Lite
 
 Download đúng phiên bản sau tại địa chỉ:
+1.1.1. Với Raspberry sử dụng Modun MIC dạng HAT: Respeaker 2 Mic Hat, Respeaker 4 Mic Hat
 
 https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip
+
+1.1.2. Với Raspberry sử dụng Modun Mic USB:
+
+https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-05-28/2020-05-27-raspios-buster-lite-armhf.zip
 
 1.2. Flash vào thẻ nhớ
 Sử dụng tool của Raspberry hoặc Etcher
