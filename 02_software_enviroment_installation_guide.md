@@ -112,7 +112,7 @@ sudo ldconfig
 
 Chạy lần lượt các lệnh sau
 ```sh
-sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python3-pygame pyusb -y
+sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python3-pygame -y
 
 ```
 
@@ -127,7 +127,7 @@ python3 -m pip install --upgrade pip
 ```
 3.2. Cài đặt các gói Python cơ bản liên quan tới wakeup, play ding, dong, đọc config
 ```sh
-python3 -m pip install python-Levenshtein PyAudio pygame pyalsaaudio pyyaml pvporcupine urllib3 sounddevice click tenacity futures pathlib2 setuptools wheel spidev
+python3 -m pip install python-Levenshtein PyAudio pygame pyalsaaudio pyyaml pvporcupine urllib3 sounddevice click tenacity futures pathlib2 setuptools wheel spidev pyusb 
 
 ```
 3.3. Cài đặt các gói Python liên quan tới Google Assistant
