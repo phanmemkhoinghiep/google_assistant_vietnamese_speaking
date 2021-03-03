@@ -131,26 +131,9 @@ python3 -m pip install python-Levenshtein PyAudio pygame pyalsaaudio pyyaml pvpo
 
 ```
 3.3. Cài đặt các gói Python liên quan tới Google Assistant
-```sh
-python3 -m pip install --upgrade google-assistant-library==1.0.1  
-
-```
-và
 
 ```sh
-python3 -m pip install --upgrade google-assistant-grpc 
-
-```
-và
-
-```sh
-python3 -m pip install --upgrade google-assistant-sdk[samples]==0.5.1
-```
-và
-
-```sh
-python3 -m pip install --upgrade google-auth-oauthlib[tool]
-
+python3 -m pip install --upgrade google-assistant-library==1.0.1  --upgrade google-assistant-grpc --upgrade google-assistant-sdk[samples]==0.5.1 --upgrade google-auth-oauthlib[tool]
 ```
 
 ### STEP4. Config Mig, Speaker, LED
@@ -160,6 +143,12 @@ python3 -m pip install --upgrade google-auth-oauthlib[tool]
 4.1.1. Cắm Modun 2 Mic Hat hoặc ReSpeaker 4-Mic Array vào Pi Zero
 
 Chạy lần lượt các lệnh sau
+
+```sh
+cd ~
+```
+sau đó
+
 ```sh
 git clone https://github.com/respeaker/seeed-voicecard.git
 ```
