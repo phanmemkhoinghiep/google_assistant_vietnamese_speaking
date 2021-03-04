@@ -23,7 +23,7 @@ https://www.fshare.vn/file/CN1W82DELLT6
 
 0.2.9. Sau đó chuyển sang Guide 03
 
-0.2. Download bộ Image đã cài đặt sẵn, sau khi download, cần chạy Step 2.3, 3.2 và 3.3
+0.2. Download bộ Image đã cài đặt sẵn, sau khi download, cần chạy Step 2.2, 2.3, 3.2 và 3.3
 
 0.2.1.Bản cho thẻ 16G: Link sau:
 
