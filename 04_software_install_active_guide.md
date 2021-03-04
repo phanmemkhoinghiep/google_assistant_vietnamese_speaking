@@ -163,7 +163,7 @@ sudo cp /home/pi/.config/google-oauthlib-tool/credentials_x.json /home/pi/.confi
 
 6.1. Chạy ứng dụng gốc để kích hoạt thiết bị như sau:
 ```sh
-cd /home/pi/google_assistant_vietnamese_speaking/
+cd /home/pi/google_assistant_vietnamese_speaking/src/
 ```
 sau đó
 ```sh
