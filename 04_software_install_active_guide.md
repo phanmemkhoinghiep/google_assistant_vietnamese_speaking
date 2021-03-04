@@ -74,10 +74,10 @@ và điền lần lượt từng mục
 
 ![LẤY LẠI FILE](https://developers.google.com/assistant/sdk/images/console/edit-model.png)
 
-
 ### STEP4.  Cách 2: Đăng ký thiết bị sử dụng Tool
 
 https://developers.google.com/assistant/sdk/reference/device-registration/device-tool
+
 
 
 ### STEP5. Kích hoạt Google Assistant trên loa thông minh
@@ -159,7 +159,31 @@ sudo cp /home/pi/.config/google-oauthlib-tool/credentials_x.json /home/pi/.confi
 
 5.2.6. Trong trường hợp báo lỗi InvalidGrantError, là do mã copy vào theo bước 3.1.5. bị sai, cần phải lặp lại từ 3.1. Chú ý mã copy không có khoảng trắng, khi select bằng chuột có thể có khoảng trắng
 
-### STEP6. Kết thúc
+### STEP6. Kích hoạt thiết bị để chạy được Google Assistant
+
+6.1. Chạy ứng dụng gốc để kích hoạt thiết bị như sau:
+```sh
+cd /home/pi/google_assistant_vietnamese_speaking/
+```
+sau đó
+```sh
+python3 register_device.py --project-id my-dev-project --device-model-id my-model-id
+```
+với project_id và device_model_id là giá trị đã lưu lại khi khởi tạo project
+
+Chương trình sẽ hiển thị như sau
+```sh
+pygame 1.9.4.post1
+Hello from the pygame community. https://www.pygame.org/contribute.html
+INFO:root:Connecting to embeddedassistant.googleapis.com
+INFO:root:Using device model inbound-theory-xxxxx-xxxxx-xxxxx and device id xxxxx-xxxxx-xxxx-xxxx-xxxxxxxx
+```
+6.2. Kiểm tra kết quả
+Sau khi khởi chạy, hệ thống sẽ tạo một thư mục có file là device_config.json nằm trong thư mục googlesamples-assistant
+```sh
+/home/pi/.config/googlesamples-assistant/device_config.json
+```
+### STEP7. Kết thúc
 
 6.1. Có thể chạy ứng dụng theo link tại:
 
