@@ -10,7 +10,7 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 1.2. Chạy boot bằng lệnh 
 
 ```sh
-python3 pushtotalk.py
+python3 start.py
 ```
 
 1.3. Kết quả thành công
@@ -44,7 +44,7 @@ Tại cửa sổ nano, gõ các dòng sau
 ```sh
 [program:google_assistant_vietnamese_speaking]
 directory=/home/pi/google_assistant_vietnamese_speaking/src
-command=/bin/bash -c 'cd /home/pi/google_assistant_vietnamese_speaking/src && python3 pushtotalk.py'
+command=/bin/bash -c 'cd /home/pi/google_assistant_vietnamese_speaking/src && python3 start.py'
 numprocs=1
 autostart=true
 autorestart=true
