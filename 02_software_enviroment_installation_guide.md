@@ -6,35 +6,49 @@ Các bạn không muốn trải nghiệm quá trình cài đặt từ Step1 đ�
 
 0.1. Download bộ Image đã cài đặt sẵn tất cả các bước theo một trong hai link sau:
 
-0.1.1. Bản cho thẻ 16G: Một trong 2 link sau:
+0.1.1. Bản cho thẻ 16G: Một trong 2 Link sau:
 ```sh
-https://www.fshare.vn/file/CN1W82DELLT6
 https://1drv.ms/u/s!AvDx_rYRQh5Lo_AmY5TORDA1GnloSw?e=sTSE2u
-Username/password:pi/210324
+https://www.fshare.vn/file/CN1W82DELLT6
 ```
-hoặc
+0.1.2. Sử dụng Win32Img để ghi vào thẻ SD 32GB
+
+0.1.3. Khai báo file wpa_supplicant.conf như hướng dẫn tại Bước 1.3.
+
+0.1.4. Cắm thẻ nhớ vào Pi Zero W và boot lên
+
+0.1.5. Sử dụng SSH để truy cập từ xa vào Console
+
+0.1.6. Username và password đăng nhập ở trên
+
+0.2.9. Sau đó chuyển sang Guide 03
+
+0.2. Download bộ Image đã cài đặt sẵn, sau khi download, cần chạy Step 2.3, 3.2 và 3.3
+
+0.2.1.Bản cho thẻ 16G: Link sau:
 
 ```sh
 https://drive.google.com/file/d/1rzgcjCXfHPUGC1QYjw8HVeKIu37dPPD0/view?usp=sharing Username/password:pi/210324
 ```
-0.1.1. Bản cho thẻ 32G trong link sau:
+0.2.2. Bản cho thẻ 32G trong link sau:
+
 ```sh
 https://1drv.ms/u/s!AvDx_rYRQh5Lo9RGY2XsZh78bhHa3g?e=80TKfE Username/password:pi/raspberry 
 
 ```
-0.2. Sử dụng Win32Img để ghi vào thẻ SD 32GB
+0.2.3. Sử dụng Win32Img để ghi vào thẻ SD 32GB
 
-0.3. Khai báo file wpa_supplicant.conf như hướng dẫn tại Bước 1.3.
+0.2.4. Khai báo file wpa_supplicant.conf như hướng dẫn tại Bước 1.3.
 
-2.4. Cắm thẻ nhớ vào Pi Zero W và boot lên
+0.2.5. Cắm thẻ nhớ vào Pi Zero W và boot lên
 
-0.5. Sử dụng SSH để truy cập từ xa vào Console
+0.2.6. Sử dụng SSH để truy cập từ xa vào Console
 
-0.6. Username và password đăng nhập là mặc định
+0.2.7. Username và password đăng nhập ở trên
 
-```sh
-Username/password:pi/raspberry
-```
+0.2.8 tiếp tục chạy Step 2.3, 3.2 và 3.3
+
+0.2.9. Sau đó chuyển sang Guide 03
 
 ### STEP1. Cài đặt hệ điều hành Raspbian
 
