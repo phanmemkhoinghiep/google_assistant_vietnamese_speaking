@@ -18,6 +18,7 @@ hoặc
 https://drive.google.com/file/d/1rzgcjCXfHPUGC1QYjw8HVeKIu37dPPD0/view?usp=sharing Username/password:pi/210324
 ```
 0.1.1. Bản cho thẻ 32G trong link sau:
+```sh
 https://1drv.ms/u/s!AvDx_rYRQh5Lo9RGY2XsZh78bhHa3g?e=80TKfE Username/password:pi/raspberry 
 
 ```
