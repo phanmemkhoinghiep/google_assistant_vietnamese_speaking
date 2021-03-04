@@ -22,7 +22,6 @@ https://drive.google.com/file/d/1rzgcjCXfHPUGC1QYjw8HVeKIu37dPPD0/view?usp=shari
 https://1drv.ms/u/s!AvDx_rYRQh5Lo9RGY2XsZh78bhHa3g?e=80TKfE Username/password:pi/raspberry 
 
 ```
-
 0.2. Sử dụng Win32Img để ghi vào thẻ SD 32GB
 
 0.3. Khai báo file wpa_supplicant.conf như hướng dẫn tại Bước 1.3.
@@ -132,7 +131,6 @@ Chạy lần lượt các lệnh sau
 sudo apt-get install python3-pip python3-setuptools python3-psutil python3-bottle python3-requests python3-dev python3-pyaudio python3-numpy python3-pip python3-wheel python3-dev python3-pygame -y
 
 ```
-
 ### STEP3. Cài đặt các gói Python
 
 3.1. Nâng cấp PIP
@@ -183,16 +181,16 @@ khởi động lại
 
 ```sh
 sudo reboot
-
 ```
 Sau khi khởi động lại, đăng nhập lại vào console
 
-sau đó xóa file asound.conf
+sau đó tạo một file asound.conf tại thư mục /home/pi như sau
 
 ```sh
-sudo cp /etc/asound.conf asound.conf.bak
-sudo rm -rf /etc/asound.conf
+sudo nano /home/pi/.asoundrc
 ```
+Sau đó bấm Ctrl +X rồi Y
+
 gỡ bỏ pulseaudio bằng lệnh (Nếu không cài đặt pulseaudio trước đây thì bỏ qua bước này
 
 ```sh
