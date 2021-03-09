@@ -117,7 +117,7 @@ sudo apt-get install git wget openssl ffmpeg -y
 ```
 2.2. Patch lỗi libportaudio
 ```sh
-sudo apt-get remove libportaudio2
+sudo apt-get remove libportaudio2 -y
 ```
 sau đó
 ```sh
