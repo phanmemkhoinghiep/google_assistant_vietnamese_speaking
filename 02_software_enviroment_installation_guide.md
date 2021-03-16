@@ -11,7 +11,7 @@ hoặc
 ```sh
 https://drive.google.com/file/d/1kvquheNqf9zwObHwCFxWP_HtK-hPQh48/view?usp=sharing
 ```
-0.2. Sử dụng Win32Img để ghi vào thẻ SD 32GB
+0.2. Sử dụng Win32Img để ghi vào thẻ SD 8GB trở lên
 
 0.3. Khai báo file wpa_supplicant.conf như hướng dẫn tại Bước 1.3.
 
