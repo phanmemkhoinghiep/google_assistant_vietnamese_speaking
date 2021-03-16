@@ -243,6 +243,12 @@ pcm.mic {
   }
 }
 ```
+sau đó
+
+```sh
+sudo apt-get install pulseaudio -y
+
+```
 Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
 
 4.2.3. Khai báo cho loa (Nếu ko sử dụng phiên bản Pi có nhiều hơn 1 Sound card thì bỏ qua phần này)
