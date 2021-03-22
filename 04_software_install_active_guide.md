@@ -171,7 +171,7 @@ cd /home/pi/google_assistant_vietnamese_speaking/src/
 ```
 sau đó
 ```sh
-python3 register_device.py --project-id my-dev-project --device-model-id my-model-id
+python3 register_device.py --project-id ten_project --device-model-id ten_device_id
 ```
 với project_id và device_model_id là giá trị đã lưu lại khi khởi tạo project
 
@@ -180,8 +180,12 @@ Chương trình sẽ hiển thị như sau
 pygame 1.9.4.post1
 Hello from the pygame community. https://www.pygame.org/contribute.html
 INFO:root:Connecting to embeddedassistant.googleapis.com
-INFO:root:Using device model inbound-theory-xxxxx-xxxxx-xxxxx and device id xxxxx-xxxxx-xxxx-xxxx-xxxxxxxx
+WARNING:root:Device config not found: [Errno 2] No such file or directory: '/home/pi/.config/googlesamples-assistant/device_config.json'
+INFO:root:Registering device
+INFO:root:Device registered: xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx
+
 ```
+Bấm Ctrl + C để thoát ứng dụng kiểm tra
 6.2. Kiểm tra kết quả
 Sau khi khởi chạy, hệ thống sẽ tạo một thư mục có file là device_config.json nằm trong thư mục googlesamples-assistant
 ```sh
