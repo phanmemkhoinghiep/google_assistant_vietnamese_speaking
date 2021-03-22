@@ -24,7 +24,7 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 2.2. Chạy trực tiếp
 
 ```sh
-python3 start.py 
+python3 test_default.py 
 ```
 
 Nếu ra kết quả sau
@@ -35,7 +35,11 @@ Hello from the pygame community. https://www.pygame.org/contribute.html
 ERROR:root:Error loading credentials: [Errno 2] No such file or directory: '/home/pi/.config/google-oauthlib-tool/credentials.json'
 ERROR:root:Run google-oauthlib-tool to initialize new OAuth 2.0 credentials.
 ```
-Là hệ thống đã hoạt động tốt với các thư viện. Chúng ta cần đăng ký thiết bị theo 1 trong 2 cách sau:
+Là hệ thống đã hoạt động tốt với các thư viện. 
+
+Bấm Ctrl + Z để thoát khỏi chương trình test default Google Assistant
+
+Chúng ta cần đăng ký thiết bị theo 1 trong 2 cách sau:
 
 ### STEP3.  Cách 1: Đăng ký thiết bị sử dụng Web Google
 
