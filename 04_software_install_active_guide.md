@@ -171,7 +171,7 @@ cd /home/pi/google_assistant_vietnamese_speaking/src/
 ```
 sau đó
 ```sh
-python3 register_device.py --project-id ten_project --device-model-id ten_device_id
+python3 register_device.py --project-id <ten_project> --device-model-id <ten_device_id>
 ```
 với project_id và device_model_id là giá trị đã lưu lại khi khởi tạo project
 
