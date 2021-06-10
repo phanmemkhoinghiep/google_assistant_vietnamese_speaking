@@ -146,5 +146,5 @@ Khởi động lại Pi
 ```sh
 sudo reboot
 ```
-Google Assistant sẽ không tự động chạy nữa
+Google Assistant sẽ không tự động chạy khi khởi động Pi nữa
 
