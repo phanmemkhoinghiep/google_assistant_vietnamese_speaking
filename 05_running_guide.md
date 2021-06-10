@@ -66,9 +66,9 @@ sudo supervisorctl update
 sudo reboot
 ```
 
-Google Assistant sẽ tự động chạy khi khởi động
+Google Assistant sẽ tự động chạy khi khởi động Pi
 
-2.1.5. Stop quá trình tự chạy lại khi lỗi (Nếu cần)
+2.1.5. Stop quá trình tự chạy lại khi khởi động Pi (Nếu cần)
 
 ```sh
 sudo supervisorctl stop google_assistant_vietnamese_speaking
@@ -120,14 +120,14 @@ Bấm Ctrl + X, Y, Enter
 ```sh
 sudo reboot
 ```
-Google Assistant sẽ tự động chạy 
+Google Assistant sẽ tự động chạy khi khởi động Pi
 
 2.2.4. Xem log khi chạy
 
 ```sh
 cat /home/pi/logs/cronlog
 ```
-2.2.5. Gỡ tự động
+2.2.5. Gỡ tự động chạy khi khởi động Pi (Nếu cần)
 
 ```sh
 crontab -e
