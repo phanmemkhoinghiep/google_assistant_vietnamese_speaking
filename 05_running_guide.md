@@ -24,8 +24,6 @@ INFO:root:Using device model inbound-theory-xxxxx-xxxxx-xxxxx and device id xxxx
 
 Sau khi có kết quả thành công, ra lệnh bằng từ khóa "OK Google" hoặc "Hey Google" sẽ có tiếng Ting và bắt đầu chờ lệnh
 
-### STEP2.  Chạy tự động khi khởi động Pi
-
 
 ### STEP2.  Chạy tự động khi khởi động Pi
 
