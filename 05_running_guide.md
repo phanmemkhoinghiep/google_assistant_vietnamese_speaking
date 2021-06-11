@@ -46,7 +46,7 @@ Chọn 1 để edit bằng nano
 Tại cửa sổ nano, di chuyển xuống dòng cuối cùng rồi gõ
 
 ```sh
-@reboot sh /home/pi/google_assistant_vietnamese_speaking/src/start.sh >/home/pi/logs/cronlog 2>&1i
+@reboot sh /home/pi/google_assistant_vietnamese_speaking/src/start.sh >/home/pi/logs/cronlog 2>&1
 ```
 Bấm Ctrl + X, Y, Enter
 
