@@ -27,72 +27,7 @@ Sau khi có kết quả thành công, ra lệnh bằng từ khóa "OK Google" ho
 
 ### STEP2.  Chạy tự động khi khởi động Pi
 
-2.1. Chạy bằng Supervisor
-
-Thiết lập tự động chạy bot khi bật nguồn, và tự chạy lại khi lỗi
-
-2.1.1. Cài đặt Supervisor
-
-```sh
-sudo apt-get install supervisor -y
-
-```
-2.1.2. Edit file config 
-
-```sh
-sudo nano /etc/supervisor/conf.d/google_assistant_vietnamese_speaking.conf
-
-```
-Tại cửa sổ nano, gõ các dòng sau
-
-```sh
-[program:vietbot]
-directory=/home/pi/google_assistant_vietnamese_speaking/src
-command=/bin/bash -c 'cd /home/pi/google_assistant_vietnamese_speaking/src && python3 pushtotalk.so'
-numprocs=1
-autostart=true
-autorestart=true
-user=pi
-```
-Bấm Ctrl + X, Y, Enter
-
-2.1.3. Update supervisor
-```sh
-sudo supervisorctl update
-```
-2.1.4. Khởi động lại Pi 
-
-```sh
-sudo reboot
-```
-
-Google Assistant sẽ tự động chạy khi khởi động Pi
-
-2.1.5. Stop quá trình tự chạy lại khi khởi động Pi (Nếu cần)
-
-```sh
-sudo supervisorctl stop google_assistant_vietnamese_speaking
-```
-
-Gỡ Google Assistant ra khỏi tự động chạy khi khởi động
-
-```sh
-sudo rm -rf /etc/supervisor/conf.d/google_assistant_vietnamese_speaking.conf 
-```
-sau đó
-
-```sh
-sudo supervisorctl update
-```
-Chờ sau khi có thông báo update
-
-Khởi động lại
-
-```sh
-sudo reboot
-```
-Google Assistant sẽ không tự chạy lại nữa
-
+2.1. Chạy bằng Supervisor (Hiện đang lỗi chưa cập nhật cách sửa)
 
 2.2. Tự động bằng crontab
 
