@@ -4,7 +4,7 @@
 STRING="Automatic launching Google Assistant..."
 PYTHON="/usr/bin/python3.7"
 BOT_ROOT="/home/pi/google_assistant_vietnamese_speaking/src"
-BOT="pushtotalk.so"
+BOT="start.py"
 
 pushd . > /dev/null 2>&1
 cd $BOT_ROOT
