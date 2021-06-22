@@ -10,7 +10,7 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 1.2. Edit config bằng lệnh 
 
 ```sh
-sudo nano create_config.json
+sudo nano create_config.py
 ```
 1.3. Tạo file config sau khi Edit xong bằng lệnh 
 
