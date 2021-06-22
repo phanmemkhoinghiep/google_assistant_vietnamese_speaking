@@ -10,7 +10,7 @@ cd /home/pi/google_assistant_vietnamese_speaking/src
 1.2. Chạy boot bằng lệnh 
 
 ```sh
-python3 pushtotalk.so
+python3 start.py
 ```
 
 1.3. Kết quả thành công
