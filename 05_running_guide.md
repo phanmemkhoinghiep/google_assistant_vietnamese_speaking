@@ -7,20 +7,24 @@ Sử dụng lệnh sau
 ```sh
 cd /home/pi/google_assistant_vietnamese_speaking/src
 ```
-1.2. Chạy boot bằng lệnh 
+1.2. Edit config bằng lệnh 
 
 ```sh
-python3 start.py
+sudo nano create_config.json
 ```
+1.3. Tạo file config sau khi Edit xong bằng lệnh 
 
-1.3. Kết quả thành công
+```sh
+python3 create_config.py
+```
+1.4. Kết quả thành công
 ```sh
 pygame 1.9.4.post1
 Hello from the pygame community. https://www.pygame.org/contribute.html
 INFO:root:Connecting to embeddedassistant.googleapis.com
 INFO:root:Using device model inbound-theory-xxxxx-xxxxx-xxxxx and device id xxxxx-xxxxx-xxxx-xxxx-xxxxxxxx
 ```
-1.4. Ra lệnh bằng từ khóa
+1.5. Ra lệnh bằng từ khóa
 
 Sau khi có kết quả thành công, ra lệnh bằng từ khóa "OK Google" hoặc "Hey Google" sẽ có tiếng Ting và bắt đầu chờ lệnh
 
