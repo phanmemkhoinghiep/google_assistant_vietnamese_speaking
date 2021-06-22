@@ -4,11 +4,11 @@ data = {}
 data['mic'] = []
 data['mic'].append({
     'type': 'None Respeaker Mic',
-    'is_active': False        
+    'is_active': True        
 })
 data['mic'].append({
     'type': 'ReSpeaker 2/4-Mics Pi HAT',
-    'is_active': True        
+    'is_active': False        
 })
 data['mic'].append({
     'type': 'ReSpeaker Mic Array v2.0',
