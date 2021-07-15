@@ -17,7 +17,14 @@ sudo nano create_config.py
 ```sh
 python3 create_config.py
 ```
-1.4. Kết quả thành công
+1.4. Chạy file 
+
+```sh
+python3 start.py
+```
+
+
+Kết quả thành công
 ```sh
 pygame 1.9.4.post1
 Hello from the pygame community. https://www.pygame.org/contribute.html
