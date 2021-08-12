@@ -15,10 +15,11 @@ Nếu phát hiện có file nào vừa cập nhật thì chuyển sang bước 2
 
 2.1. Backup file
 
-Backup file config.yaml, các file hotword.ppn bằng lệnh
+Backup file create_config.py, config.json , các file hotword *.ppn bằng lệnh
 
 ```sh
-sudo cp /home/pi/google_assistant_vietnamese_speaking/src/config.yaml /home/pi/config.yaml
+sudo cp /home/pi/google_assistant_vietnamese_speaking/src/config.yaml /home/pi/config.json
+sudo cp /home/pi/google_assistant_vietnamese_speaking/src/config.yaml /home/pi/create_config.py
 ```
 và
 ```sh
@@ -39,7 +40,8 @@ git clone https://github.com/phanmemkhoinghiep/google_assistant_vietnamese_speak
 
 Restore file config.yaml và các file hotword .ppn bằng lệnh
 ```sh
-sudo cp /home/pi/config.yaml /home/pi/google_assistant_vietnamese_speaking/src/config.yaml
+sudo cp /home/pi/config.yaml /home/pi/google_assistant_vietnamese_speaking/src/config.json
+sudo cp /home/pi/config.yaml /home/pi/google_assistant_vietnamese_speaking/src/create_config.py
 ```
 và
 ```sh
