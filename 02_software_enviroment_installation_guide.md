@@ -114,7 +114,7 @@ python3 -m pip install python-Levenshtein PyAudio pygame pyalsaaudio pyyaml pvpo
 3.3. Cài đặt các gói Python liên quan tới Google Assistant
 
 ```sh
-python3 -m pip install --upgrade google-assistant-library==1.0.1  --upgrade google-assistant-grpc --upgrade google-assistant-sdk[samples]==0.5.1 --upgrade google-auth-oauthlib[tool]
+python3 -m pip install --upgrade google-assistant-library  --upgrade google-assistant-grpc --upgrade google-assistant-sdk[samples] --upgrade google-auth-oauthlib[tool]
 ```
 
 ### STEP4. Config Mig, Speaker, LED
