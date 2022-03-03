@@ -63,7 +63,7 @@ data['hotword_engine'] = []
 data['hotword_engine'].append({
     'name': 'porcupine',
     'is_active': True,
-    'porcupine_access_key': 'EhpBuTJggF/KvZ3UzZbP8dsVzIDbkeJWCumufIsehkxbi4IwUtAONg=='
+    'porcupine_access_key': 'EhpBuTJggF/KvZ3fdsfsdfIsehkxbi4IwUtAONg=='
 })
 data['hotword'] = []
 data['hotword'].append({
