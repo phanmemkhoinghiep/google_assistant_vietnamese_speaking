@@ -82,7 +82,7 @@ python3 -m pip install mutagen PyAudio  pyalsaaudio pyyaml pyusb  termcolor pixe
 và
 
 ```sh
-python -m pip install --upgrade google-assistant-sdk[samples] --upgrade google-auth-oauthlib[tool]
+python -m pip install --upgrade google-assistant-sdk[samples] --upgrade google-auth-oauthlib[tool] google-assistant-grpc 
 ```
 và
 
