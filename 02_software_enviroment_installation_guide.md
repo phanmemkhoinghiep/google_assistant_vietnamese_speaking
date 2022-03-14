@@ -128,6 +128,16 @@ python3 -m pip install --upgrade tenacity
 4.1.1. Cài đặt Drive cho Modun
 
 Chạy lần lượt các lệnh sau
+
+```sh
+sudo apt-get update -y
+```
+sau đó 
+```sh
+sudo apt-get upgrade -y
+```
+sau đó
+
 ```sh
 git clone https://github.com/respeaker/seeed-voicecard.git
 ```
@@ -137,7 +147,7 @@ cd seeed-voicecard
 ```
 sau đó
 ```sh
-sudo ./install.sh --compat-kernel
+sudo ./install.sh
 ```
 chờ cài đặt kết thúc
 
@@ -158,61 +168,27 @@ Gõ space bar sau đó gõ backspace
 
 Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
 
-4.1.2. Fix lỗi libportaudio
+4.1.2. Cài đặt âm lượng
 
-sau đó
-
-```sh
-git clone -b alsapatch https://github.com/gglockner/portaudio
-```
-sau đó
-```sh
-cd portaudio
-```
-sau đó
-```sh
-./configure && make
-```
-sau đó
-```sh
-sudo make install
-```
-sau đó
-```sh
-sudo ldconfig
-
-```
-4.1.3. Gỡ Libportaudio mặc định đã cài và gỡ bỏ Pulseaudio
-
-```sh
-sudo apt-get remove libportaudio2 -y
-```
-sau đó
-```sh
-sudo apt-get purge pulseaudio -y
-```
-sau đó
-```sh
-python3 -m pip install PyAudio
-```
-Sau đó khởi động lại
-
-```sh
-sudo reboot
-```
-Sau khi khởi động lại vào alxamixer bằng lệnh
+Vào alxamixer bằng lệnh
 
 ```sh
 alsamixer
 ```
 bấm F6 để chọn sound card seed, sau đó bấm F5, dùng phím lên trên bàn phím để kéo hết các giá trị lên Max, phím trái, phải để chọn các giá trị Stereo tại các mục tương ứng
 
+Gõ lệnh sau để lưu lại
+
+```sh
+sudo alsactl store
+```
+
 4.1.2. Cài đặt nút bấm cho các Modun Mic Hat
 
 ```sh
 python3 -m pip install rpi.gpio
 ```
-4.2. Cài đặt cho Mic USB và Loa 
+4.2. Cài đặt cho Mic USB và Loa
 
 4.2.1. Thống kê ID của Mic USB và Loa (Chỉ dành cho 1/sử dụng Mic USB Soundcard USB hoặc 2/sử dụng phiên bản Pi có nhiều hơn 1 Sound card hoặc cả 1/ và 2/)
 
@@ -227,46 +203,30 @@ aplay -l
 ```
 Lưu lại thông tin về card_id và device_id ở mỗi kết quả lệnh
 
-4.2.2. Khai báo cho cả Mic USB (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
+4.2.2. Khai báo cho Mic USB (Nếu ko sử dụng Mic USB thì bỏ qua phần này)
 
 Chạy lệnh sau 
 ```sh
+sudo apt-get install pulseaudio -y
+```
+sau đó 
+
+```sh
 sudo nano /home/pi/.asoundrc
 ```
-Cửa sổ nano hiện lên, paste dòng sau, thay thế <card_id> và <device_id> bằng kết quả đã lưu:
+Cửa sổ nano hiện lên, paste dòng sau, thay thế <card_id> và <device_id> bằng kết quả đã lưu ví dụ 0:0 hoặc 1:0 hoặc 1:1:
 
 ```sh
 pcm.!default {
   type asym
   capture.pcm "mic"  
+  playback.pcm "speaker"  
 }
 pcm.mic {
   type plug
   slave {
     pcm "hw:<card_id>,<device_id>"
   }
-}
-```
-sau đó
-
-```sh
-sudo apt-get install pulseaudio -y
-
-```
-Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
-
-4.2.3. Khai báo cho loa (Nếu ko sử dụng phiên bản Pi có nhiều hơn 1 Sound card thì bỏ qua phần này)
-Chạy lệnh sau 
-
-```sh
-sudo nano /home/pi/.asoundrc
-```
-Cửa sổ nano hiện lên, paste dòng sau, thay thế <card_id> và <device_id> bằng kết quả đã lưu:
-
-```sh
-pcm.!default {
-  type asym
-  playback.pcm "speaker"
 }
 pcm.speaker {
   type plug
@@ -277,68 +237,59 @@ pcm.speaker {
 ```
 Bấm lần lượt Ctrl + X, sau đó Y rồi Enter
 
-4.2.4. Copy file thiết lập cho mọi account (Nếu chỉ dùng Account Pi thì bỏ qua bước này)
+4.2.3. Copy file thiết lập cho mọi account (Nếu chỉ dùng Account Pi thì bỏ qua bước này)
 
 Chạy lệnh sau
 ```sh
 sudo cp /home/pi/.asoundrc /etc/asound.conf
 ```
-4.2.6. Reboot lại Pi
+4.2.4. Reboot lại Pi
 Chạy lệnh sau
 ```sh
 sudo reboot
 ```
-4.3. Cài đặt cho Mic USB và Loa 
-4.3.1. Fix lỗi libportaudio
 
-sau đó
+4.3. Cài đặt điều khiển Led cho Modun ReSpeaker Mic Array v2.0 hoặc ReSpeaker USB Mic Array (Nếu không dùng thì bỏ qua)
 
-```sh
-git clone -b alsapatch https://github.com/gglockner/portaudio
-```
-sau đó
-```sh
-cd portaudio
-```
-sau đó
-```sh
-./configure && make
-```
-sau đó
-```sh
-sudo make install
-```
-sau đó
-```sh
-sudo ldconfig
-
-```
-4.3.2. Gỡ Libportaudio mặc định đã cài và gỡ bỏ Pulseaudio
-
-```sh
-sudo apt-get remove libportaudio2 -y
-```
-sau đó
-```sh
-sudo apt-get purge pulseaudio -y
-```
-sau đó
-```sh
-python3 -m pip install PyAudio
-```
-Sau đó khởi động lại
-
-```sh
-sudo reboot
-```
-
-4.4. Cài đặt điều khiển Led cho Modun ReSpeaker Mic Array v2.0 hoặc ReSpeaker USB Mic Array (Nếu không dùng thì bỏ qua)
-
-4.4.1. Đưa Account đang dùng (Ví dụ pi) vào group root
+4.3.1. Đưa Account đang dùng (Ví dụ pi) vào group root
 
 Chạy lệnh sau
 ```sh
 sudo usermod -aG root account_name
 ```
 
+4.4. Test loa và mic
 
+4.4.1. Test loa
+Chạy lệnh sau
+```sh
+speaker-test -t wav -c 2
+```
+4.4.2. Test Mic
+Chạy lệnh sau để ghi âm
+```sh
+arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+```
+Chạy lệnh sau để phát lại
+```sh
+aplay --format=S16_LE --rate=16000 out.raw
+```
+4.4.3. Test stream giữa Mic và Loa
+```sh
+arecord --format=S16_LE --rate=16000 | aplay --format=S16_LE --rate=16000
+```
+
+4.4.4. Fix lỗi Audio không chạy tự động của Mic USB
+
+Chạy lệnh sau
+
+```sh
+cd /home/pi/       
+git clone https://github.com/shivasiddharth/PulseAudio-System-Wide       
+cd ./PulseAudio-System-Wide/      
+sudo cp ./pulseaudio.service /etc/systemd/system/pulseaudio.service    
+sudo systemctl --system enable pulseaudio.service       
+sudo systemctl --system start pulseaudio.service       
+sudo cp ./client.conf /etc/pulse/client.conf        
+sudo sed -i '/^pulse-access:/ s/$/root,pi/' /etc/group    
+```
