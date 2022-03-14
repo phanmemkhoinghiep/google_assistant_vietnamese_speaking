@@ -143,43 +143,8 @@ Chạy lệnh sau
 ```sh
 sudo cp /home/pi/.asoundrc /etc/asound.conf
 ```
-2.2.4. Reboot lại Pi
-Chạy lệnh sau
-```sh
-sudo reboot
-```
 
-2.3. Cài đặt điều khiển Led cho Modun ReSpeaker Mic Array v2.0 hoặc ReSpeaker USB Mic Array (Nếu không dùng thì bỏ qua)
-
-2.3.1. Đưa Account đang dùng (Ví dụ pi) vào group root
-
-Chạy lệnh sau
-```sh
-sudo usermod -aG root account_name
-```
-
-2.4. Test loa và mic
-
-2.4.1. Test loa
-Chạy lệnh sau
-```sh
-speaker-test -t wav -c 2
-```
-2.4.2. Test Mic
-Chạy lệnh sau để ghi âm
-```sh
-arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
-```
-Chạy lệnh sau để phát lại
-```sh
-aplay --format=S16_LE --rate=16000 out.raw
-```
-2.4.3. Test stream giữa Mic và Loa
-```sh
-arecord --format=S16_LE --rate=16000 | aplay --format=S16_LE --rate=16000
-```
-
-2.4.4. Fix lỗi Audio không chạy tự động của Mic USB
+2.2.4. Fix lỗi Audio không chạy tự động của Mic USB
 
 Chạy lệnh sau
 
@@ -192,3 +157,37 @@ sudo systemctl --system enable pulseaudio.service
 sudo systemctl --system start pulseaudio.service       
 sudo cp ./client.conf /etc/pulse/client.conf        
 sudo sed -i '/^pulse-access:/ s/$/root,pi/' /etc/group    ```
+
+2.2.5. Reboot lại Pi
+Chạy lệnh sau
+```sh
+sudo reboot
+```
+2.3. Cài đặt điều khiển Led cho Modun ReSpeaker Mic Array v2.0 hoặc ReSpeaker USB Mic Array (Nếu không dùng thì bỏ qua)
+
+2.3.1. Đưa Account đang dùng (Ví dụ pi) vào group root
+
+Chạy lệnh sau
+```sh
+sudo usermod -aG root account_name
+```
+2.5. Test loa và mic
+
+2.5.1. Test loa
+Chạy lệnh sau
+```sh
+speaker-test -t wav -c 2
+```
+2.5.2. Test Mic
+Chạy lệnh sau để ghi âm
+```sh
+arecord --format=S16_LE --duration=5 --rate=16000 --file-type=raw out.raw
+```
+Chạy lệnh sau để phát lại
+```sh
+aplay --format=S16_LE --rate=16000 out.raw
+```
+2.5.3. Test stream giữa Mic và Loa
+```sh
+arecord --format=S16_LE --rate=16000 | aplay --format=S16_LE --rate=16000
+```
