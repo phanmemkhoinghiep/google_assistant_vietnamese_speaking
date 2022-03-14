@@ -213,7 +213,21 @@ Chạy lệnh sau
 ```sh
 sudo cp /home/pi/.asoundrc /etc/asound.conf
 ```
-4.2.4. Reboot lại Pi
+4.2.4. Fix lỗi Audio không chạy tự động của Mic USB
+
+Chạy lệnh sau
+
+```sh
+cd /home/pi/       
+git clone https://github.com/shivasiddharth/PulseAudio-System-Wide       
+cd ./PulseAudio-System-Wide/      
+sudo cp ./pulseaudio.service /etc/systemd/system/pulseaudio.service    
+sudo systemctl --system enable pulseaudio.service       
+sudo systemctl --system start pulseaudio.service       
+sudo cp ./client.conf /etc/pulse/client.conf        
+sudo sed -i '/^pulse-access:/ s/$/root,pi/' /etc/group    
+```
+4.2.5. Reboot lại Pi
 Chạy lệnh sau
 ```sh
 sudo reboot
@@ -247,19 +261,4 @@ aplay --format=S16_LE --rate=16000 out.raw
 4.4.3. Test stream giữa Mic và Loa
 ```sh
 arecord --format=S16_LE --rate=16000 | aplay --format=S16_LE --rate=16000
-```
-
-4.4.4. Fix lỗi Audio không chạy tự động của Mic USB
-
-Chạy lệnh sau
-
-```sh
-cd /home/pi/       
-git clone https://github.com/shivasiddharth/PulseAudio-System-Wide       
-cd ./PulseAudio-System-Wide/      
-sudo cp ./pulseaudio.service /etc/systemd/system/pulseaudio.service    
-sudo systemctl --system enable pulseaudio.service       
-sudo systemctl --system start pulseaudio.service       
-sudo cp ./client.conf /etc/pulse/client.conf        
-sudo sed -i '/^pulse-access:/ s/$/root,pi/' /etc/group    
 ```
