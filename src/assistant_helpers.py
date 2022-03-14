@@ -16,7 +16,7 @@
 
 import logging
 
-from google.assistant.embedded.v1alpha2 import embedded_assistant_pb2
+import embedded_assistant_pb2
 
 
 def log_assist_request_without_audio(assist_request):
