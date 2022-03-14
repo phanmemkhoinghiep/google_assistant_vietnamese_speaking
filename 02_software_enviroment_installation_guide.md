@@ -28,7 +28,7 @@ https://drive.google.com/file/d/1kvquheNqf9zwObHwCFxWP_HtK-hPQh48/view?usp=shari
 ### STEP1. Cài đặt hệ điều hành Raspbian
 
 1.1. Download Raspberry Pi OS
-Tối ưu cho phần cứng Pi Zero Wireless nên Vietbot chỉ cần bản OS Buster Lite
+Tối ưu cho phần cứng Pi Zero 2 Wireless nên Google Assistant chỉ cần bản OS Buster Lite
 
 Download đúng phiên bản sau tại địa chỉ:
 
@@ -60,9 +60,9 @@ network={
 
 1.4.2. Sử dụng putty truy cập ssh vào địa chỉ IP của Pi với username là pi, password là raspberry
 
-### STEP2. Cài đặt các thư viện chung cho Vietbot và thư viện cho Python trên OS
+### STEP2. Cài đặt các thư viện chung cho Google Assistant và thư viện cho Python trên OS
 
-2.1. Cài đặt các thư viện chung cho Vietbot
+2.1. Cài đặt các thư viện chung cho Google Assistant
 
 Chạy lần lượt các lệnh sau
 2.1.1.
