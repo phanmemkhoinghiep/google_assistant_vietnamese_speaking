@@ -108,7 +108,7 @@ python3 -m pip install --upgrade pip
 ```
 3.2. Cài đặt các gói Python cơ bản liên quan tới wakeup, play ding, dong, đọc config
 ```sh
-python3 -m pip install python-Levenshtein PyAudio pygame pyalsaaudio pyyaml pvporcupine urllib3 sounddevice click tenacity futures pathlib2 setuptools wheel spidev pyusb 
+python3 -m pip install python-Levenshtein PyAudio pygame pyalsaaudio pvporcupine urllib3 sounddevice click tenacity futures pathlib2 setuptools wheel spidev pyusb 
 
 ```
 3.3. Cài đặt các gói Python liên quan tới Google Assistant
